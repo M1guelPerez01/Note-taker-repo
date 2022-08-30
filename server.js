@@ -15,7 +15,7 @@ app.use(express.json());
 
 
 //middleware
-app.use(express.static("./develop/public"));
+app.use(express.static("./develop/public/"));
 
 //GET request
 app.get("./api/notes", function(req, res) {
